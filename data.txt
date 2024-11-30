@@ -1,0 +1,12 @@
+-----------------------------------------------------------------------------------------------------------
+Benchmark                                                                 Time             CPU   Iterations
+-----------------------------------------------------------------------------------------------------------
+sequential/iterations:5/process_time/real_time                   8011461497 ns   8009822503 ns            5
+parallel/4/iterations:5/process_time/real_time                   4296376111 ns   1.4481e+10 ns            5
+parallel/8/iterations:5/process_time/real_time                   4750775204 ns   1.6674e+10 ns            5
+parallel/16/iterations:5/process_time/real_time                  4693565503 ns   1.7670e+10 ns            5
+parallel/32/iterations:5/process_time/real_time                  5005629955 ns   1.9170e+10 ns            5
+parallel_without_copy/100/iterations:5/process_time/real_time    2843412561 ns   1.0691e+10 ns            5
+parallel_without_copy/1000/iterations:5/process_time/real_time   2789848995 ns   1.0427e+10 ns            5
+parallel_without_copy/10000/iterations:5/process_time/real_time  2820350294 ns   1.0534e+10 ns            5
+parallel_without_copy/100000/iterations:5/process_time/real_time 3003004517 ns   1.0382e+10 ns            5
